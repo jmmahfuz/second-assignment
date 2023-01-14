@@ -191,8 +191,8 @@ body {
 
 .architecture {
     padding-top: 130px;
+    position: relative;
 }
- 
 .experience{
     width: 342px;
     height: 200px;
@@ -201,6 +201,19 @@ body {
     border: none;
     text-align: center;
     padding: 46px 42px;
+    position: absolute;
+    bottom: 5px;
+    left: -80px;
+}
+.experience h1{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.experience p{
+    font-weight: 500;
+font-size: 25px;
+color: #FFFFFF;
 }
 
 /* main part end */
