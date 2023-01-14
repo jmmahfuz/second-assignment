@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+/* common css end */
+
+
+/* header part start */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 63px 240px 0px 224px;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.logo h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.menu ul {
+    display: flex;
+    gap: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #424242;
+}
+
+.banner {
+    padding: 116px 240px 50px 240px;
+    text-align: center;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.banner_title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.banner_description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #727272;
+    padding: 32px 0px;
+}
+
+.button {
+    height: 64px;
+    padding: 20px 25px;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+/* header part end */
+
+
+/* main part start */
+.our_team_members {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 73px;
+}
+
+.team_member {
+    padding: 85px 0 0px 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 342px);
+    gap: 24px;
+
+}
+
+.our_features {
+    padding: 287px 300px 0 0;
+}
+
+.our_features_title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-bottom: 24px;
+}
+
+.span_1 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.span_2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.our_features_description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 50px;
+}
+
+.our_services {
+    display: flex;
+    justify-content: space-between;
+    gap: 54px;
+    padding: 130px 240px;
+}
+
+.part {
+    width: 586px;
+}
+
+.our_services_title {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    padding-bottom: 24px;
+}
+
+.our_services_title h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sidebar {
+    width: 5px;
+    height: 105px;
+    background: #FF900E;
+}
+
+.our_services_description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 30px;
+}
+
+/* main part end */
+
+
+
+/* footer part start */
+
+/* footer part end */
