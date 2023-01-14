@@ -135,7 +135,7 @@ body {
     padding: 0px 240px;
 }
 
-.part {
+.our_service_part {
     width: 586px;
     padding-top: 169px;
 }
@@ -193,7 +193,8 @@ body {
     padding-top: 130px;
     position: relative;
 }
-.experience{
+
+.experience {
     width: 342px;
     height: 200px;
     background: #FF900E;
@@ -205,21 +206,117 @@ body {
     bottom: 5px;
     left: -80px;
 }
-.experience h1{
+
+.experience h1 {
     font-weight: 700;
     font-size: 65px;
     color: #FFFFFF;
 }
-.experience p{
+
+.experience p {
     font-weight: 500;
-font-size: 25px;
-color: #FFFFFF;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.awards {
+    padding: 130px 240px;
+}
+
+.awards_title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-bottom: 24px;
+}
+
+.awards_details {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.total_award {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.award {
+    height: 241px;
+    width: 241px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.award img {
+    padding: 45px 0 9px 0;
+}
+
+.award h2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    padding-bottom: 5px;
+}
+
+.award p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+}
+
+.sponspors {
+    padding: 0 240px;
+    text-align: center;
+}
+
+.sponspors_title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    padding-bottom: 24px;
+}
+
+.sponspors_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 50px;
+}
+
+.sponspor {
+    display: flex;
+    justify-content: center;
+    gap: 154px;
+    padding: 0 240px;
 }
 
 /* main part end */
 
 
-
 /* footer part start */
+footer {
+    padding: 130px 240px 216px 240px;
+}
+
+.footer {
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 39px 410px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
 
 /* footer part end */
