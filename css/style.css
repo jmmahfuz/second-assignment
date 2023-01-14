@@ -132,11 +132,12 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 54px;
-    padding: 130px 240px;
+    padding: 0px 240px;
 }
 
 .part {
     width: 586px;
+    padding-top: 169px;
 }
 
 .our_services_title {
@@ -162,7 +163,44 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+    line-height: 26px;
     padding-bottom: 30px;
+}
+
+.item {
+    padding: 30px 42px 30px 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.item h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    padding-bottom: 10px;
+}
+
+.item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.architecture {
+    padding-top: 130px;
+}
+ 
+.experience{
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    padding: 46px 42px;
 }
 
 /* main part end */
