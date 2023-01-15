@@ -252,7 +252,8 @@ body {
     border-radius: 8px;
     text-align: center;
 }
-.award:hover{
+
+.award:hover {
     background-color: #FF900E;
     border-radius: 50%;
     transition: 1.5s;
